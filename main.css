@@ -18,13 +18,32 @@ body > main {
         header > img {
             display: inline-block;
             float: left;
+            height: 50px;
         }
         nav {
             display: inline-block;
             float: right;
+            margin-top: 10px;
+            /* line-height: 50px; */
         }
             a {
                 display: inline-block;
+                height: 20px;
+                /* background-color: orange; */
+                line-height: 20px;
+                font-size: 16px;
+                padding: 2px;
+                padding-left: 20px;
+                padding-right: 20px;
+                text-decoration: none;
+                float: left;
+                color: #999999;
+            }
+            nav > a:last-of-type {
+                text-transform: uppercase;
+                border: 5px solid #999999;
+                margin-top: -5px;
+                border-radius: 20px;
             }
 
     section {
@@ -51,7 +70,7 @@ body > main {
                 width: 100%;
                 margin: 0;
                 font-size: 20px;
-                text-decoration-color: red;
+               
             }
         section > img {
             display: inline-block;
@@ -61,14 +80,3 @@ body > main {
             /* background-color: red; */
         }
 
-
-
-/* h1 {
-    background-color: beige;
-    margin: 0;
-}
-
-p {
-    background-color: cadetblue;
-    margin: 0;
-} */
